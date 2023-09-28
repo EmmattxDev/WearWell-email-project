@@ -1,0 +1,239 @@
+<mjml>
+  <mj-head>
+    <mj-preview>[RECEIPIENT'S NAME] Discover new elegant super simple wears!</mj-preview>
+    <mj-title>[RECEIPIENT'S NAME] Discover new elegant super simple wears!</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" font-family="Trebuchet MS, Tahoma, Georgia, Arial, Helvetica, Times New Roman, san-serif" />
+      <mj-text color="#FEFFFF" />
+      <mj-class name="card-border" border="1px solid #F807C8" />
+      <mj-class name="card-img-padding" padding="30px 0 20px 0" />
+      <mj-class name="card-header" font-size="16px" font-weight="bold" font-family="Trebuchet MS" padding="15px 10px 10px 10px" color="#F807C8" />
+      <mj-class name="card-description" font-size="12px" font-weight="normal" font-family="Trebuchet MS" color="#FFABEE" padding="0 10px" />
+      <mj-class name="card-price" font-size="12px" font-weight="bold" font-family="Trebuchet MS" color="#F807C8" padding="15px 10px 27px 10px" />
+      <mj-button width="100px" height="30px" border-radius="25px" background-color="#F807C8" color="#FEFFFF" />
+      <mj-social-element padding-right="20px" />
+    </mj-attributes>
+    <mj-style inline="inline"> .image-fuild > td{ width: 100% !important;} .image-fuild > img{ max-width: 600px; width: 100% !important;} .headings{ font-size: 42px; font-weight: bold; font-family: 'Times New Roman', Trebuchet MS, Tahoma, Arial, Helvetica, sans-serif; text-align: center; line-height: 42px; padding: 5px 5px 10px 5px; margin: 0; } .lit-text{ font-size: 12px; font-family: "Trebuchet MS", Arial; text-align: center; line-height: 16px; padding: 0 10px 0 10px; margin: 0; } .card-bg{ background-color: #FEFFFF; } .bg-shadow{ box-shadow: 0 3px 6px #0000003a; border: none; } .card{max-width:250px; border-radius: 25px 25px 0 0; padding-bottom: 20px; padding-left: 15px; padding-right: 15px; align:center;} .spacer{ background-color: #FEFFFF; border-radius: 25px 25px 0 0;} .card-spacer{background-color:#FEFFFF; border-radius: 25px 25px 0 0;} .logo-spacer-border-radius, .download-spacer-border-radius-1{background-color: #FEFFFF; border-radius: 0 0 25px 25px;} .download-spacer-border-radius-2{background-color: #FEFFFF; border-radius: 25px;} .button-price-group{ display: inline-block;} .app-icon{display: inline-block; width:100%;} .svg-icon-pad{ padding: 10px; display: inline-block;} </mj-style>
+  </mj-head>
+  <mj-body background-color="#EFEFEF" width="400px">
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <!-- header section -->
+    <!-- <mj-include path="./header.mjml" /> -->
+    <mj-section background-color="#FEFFFF">
+      <mj-column width="100%">
+        <mj-divider border-color="#F807C8" border-width="3px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image src="../assets/logo/wearwell-logo.png" alt="this is wearwell brand logo" width="125px" padding="30px 0 0" align="center" />
+      </mj-column>
+      <mj-column width="100%" padding-top="20px">
+        <mj-navbar ico-font-family="Times New Roman" base-url="https://amazon.com" ico-color="#F807C8">
+          <mj-navbar-link font-family="Trebuchet MS" font-size="12px" font-weight="500" padding-right="20px" href="/unisex-shirts" color="#f807C8"> Shirts </mj-navbar-link>
+          <mj-navbar-link font-family="Trebuchet MS" font-size="12px" font-weight="500" padding-right="20px" href="/Jeans-trousers" color="#f807C8"> Jeans </mj-navbar-link>
+          <mj-navbar-link font-family="Trebuchet MS" font-size="12px" font-weight="500" padding-right="20px" href="/sweaters-and-pull-overs" color="#f807C8"> Sweaters</mj-navbar-link>
+          <mj-navbar-link font-family="Trebuchet MS" font-size="12px" font-weight="500" padding-right="20px" href="/shoes" color="#f807C8"> Shoes </mj-navbar-link>
+          <mj-navbar-link font-family="Trebuchet MS" font-size="14px" font-weight="700" padding-right="20px" href="/cart" color="#f807C8"> view cart </mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+      <mj-column width="100%" background-color="#f807C8">
+        <mj-spacer height="40px" css-class="logo-spacer-border-radius" />
+      </mj-column>
+    </mj-section>
+    <!-- hero section -->
+    <!-- <mj-include path="./hero.mjml" /> -->
+    <mj-section background-color="#F807C8">
+      <mj-column width="100%" padding="105px 0 0">
+        <mj-text align="center">
+          <p class="lit-text">We Are Back</p>
+          <h1 class="headings">Keep looking simple and sharp</h1>
+        </mj-text>
+        <mj-image src="../assets/image/cloth-up.png" alt="" width="600px" css-class="image-fuild" />
+        <mj-button href="https://emmattxdev.com" width="150px" height="35px" background-color="#FEFFFF" color="#F807C8" font-weight="bold" font-size="18px"> Order Now </mj-button>
+        <mj-text font-size="12px" align="center" padding="12px 0 0"> 30% off on your first order <span style="font-weight: bold;">Use Code</span> <span style="text-decoration:underline; font-style: italic; font-weight:bold;">30wearwell</span>
+        </mj-text>
+        <mj-image src="../assets/image/cloth-down.png" alt="" width="600px" css-class="image-fuild" />
+        <mj-spacer height="120px" />
+        <mj-spacer height="60px" css-class="spacer" />
+      </mj-column>
+    </mj-section>
+    <!-- products section -->
+    <mj-section background-color="#FEFFFF" padding="60px 0 0">
+      <!-- product header text -->
+      <mj-column>
+        <mj-text align='center' color="#F807C8">
+          <p class="lit-text" style="background-color: #F807C8; color: #FEFFFF !important; width: 70%; align: center; text-align: center; margin: 0 auto !important; border-radius: 15px; padding: 5px 0; font-weight: bold;">New Arrivals</p>
+          <h1 class="headings">Top Picks For You To Keep Looking Super Simple</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--products card section -->
+    <mj-section css-class="" background-color="#FEFFFF" padding="50px 0 40px">
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/ryan-hoffman-A7f7XRKgUWc-unsplash-removebg.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Crew-neck Pull Over</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$24.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/tobias-tullius-Fg15LdqpWrs-unsplash-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Denim Jacket</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$39.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/md-salman-tWOz2_EK5EQ-unsplash-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">6pcs Crew-neck Polo Shirt Pack</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$122.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/Rectangle-6-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Jordan Brand Sweater</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$34.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/Rectangle-11-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Elastic Joggers</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$45.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/mnz-m1m2EZOZVwA-unsplash-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">3pcs Denim Jeans Trouser</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$200.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/Rectangle-12-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Nike Airmax Canvas</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$60.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/Rectangle-19-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Adidas Flat Sneakers</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$50.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/Rectangle-15-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">AirBalance Elastic Sneakers</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$65.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="card" mj-class="card-border" background-color="#FFABEE">
+        <mj-image src="../assets/image/Rectangle-18-removebg-preview.png" alt="crew-neck pull over top" width="200px" mj-class="card-img-padding" />
+        <mj-spacer css-class="card-spacer" height="20px" />
+        <mj-text mj-class="card-header" css-class="card-bg">Nike Airmax Canvas</mj-text>
+        <mj-text mj-class="card-description" css-class="card-bg">Super comfort elastic shirt made with silk fabric to keep you comfortable.</mj-text>
+        <mj-button href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="100px" height="30px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">Order Now</mj-button>
+        <mj-text mj-class="card-price" css-class="card-bg">$70.00 <span style="color:#FFABEE;"> -30%</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <!--view more new arrivals button-->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-button align="center" href='https://amazon.com/pull-over' container-background-color="#FEFFFF" width="150px" height="35px" align='left' inner-padding="10px 15px 10px 15px" padding="10px 10px 50px" color="#FEFFFF" background-color="#F807C8" font-weight="bold" font-size="12px">View More Arrivals</mj-button>
+      </mj-column>
+      <mj-column background-color="#F807C8" width="100%">
+        <mj-spacer height="50px" css-class="download-spacer-border-radius-1" />
+      </mj-column>
+    </mj-section>
+    <!--download app section-->
+    <mj-section background-color="#F807C8">
+      <mj-column width="100%">
+        <mj-image width="100px" height="223px" src="../assets/image/phone-2.png" padding="80px 0 0" />
+      </mj-column>
+      <mj-group width="100%">
+        <mj-column width="100%">
+          <mj-text padding="80px 10px 30px 40px" vertical-align="middle" color="#FEFFFF" font-size="24px" font-weight="bold" font-family="Trebuchet MS">Download WearWell mobile App and get 50% discount when you make your first purchase with it.</mj-text>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-image align="center" css-class="app-icon" alt="google play store icon" href="https://google.com" width="80px" src="../assets/image/google-download.png" padding="10px 0 0 0" />
+          <mj-image align="center" css-class="app-icon" alt="apple play store icon" href="https://amazon.com" width="80px" src="../assets/image/apple-download.png" padding="20px 0 80px 0" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+     
+      <mj-column background-color="#F807C8">
+        <mj-image width="120px" src="../assets/logo/wearwell-logo.png" alt="wearwell company logo" align="center" css-class="download-spacer-border-radius-2" padding="50px 15px" />
+      </mj-column>
+     
+    </mj-section>
+    <!--social icon section-->
+    <mj-section background-color="#F807C8">
+      <mj-column>
+        <mj-text align="center" color="#FEFFFF" font-size="24px" font-weight="bold" font-style="italic" font-family="Times New Roman, Trebuchet MS" padding="40px 5px 5px">Stay Connected</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F807C8" padding-bottom="20px">
+      <mj-column width="100%">
+        <mj-social mode="horizontal">
+          <mj-social-element href="https://facebook.com" css-class="svg-icon-pad" icon-size="30px" src="../assets/logo/Facebook.svg" />
+          <mj-social-element href="https://linkedin.com" css-class="svg-icon-pad" icon-size="30px" src="../assets/logo/Linkedin.svg" />
+          <mj-social-element href="https://x.com" css-class="svg-icon-pad" icon-size="30px" color="#FEFFFF" src="../assets/logo/Twitter.svg" />
+          <mj-social-element css-class="svg-icon-pad" icon-size="30px" color="#FEFFFF" src="../assets/logo/Instagram.svg" />
+          <mj-social-element css-class="svg-icon-pad" icon-size="30px" color="#FEFFFF" src="../assets/logo/Pinterest.svg" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!--footer section 1-->
+    <mj-section background-color="#F807C8">
+      <mj-column width="100%">
+        <mj-divider border-color="#FEFFFF" width="90%" />
+      </mj-column>
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text color="#FEFFFF" align="center" padding="30px 5px 15px" font-size="12px">If this email did not show or display well, <br /><a style="text-decoration: underline; font-weight: bold; cursor: pointer;">view email online</a>. </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="10px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" line-height="16px" padding="10px 20px 15px" font-size="12px">You are receiving this email because you subcribed to our promotional email updates. We don't wnat to see you go, but If you don't want to receive our emails again, you can <br /><a style="text-decoration: underline; font-weight: bold; cursor: pointer;">unsubcribe here</a> | <a style="text-decoration: underline; font-weight: bold; cursor: pointer;">manage preference</a></mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="50px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" line-height="16px" font-size="16px" font-weight="bold" padding-bottom="10px">WearWell Apparel Store</mj-text>
+        <mj-text align="center" line-height="16px">123 Street Road, City, State 34536333436</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+    <!--footer section 2-->
+    <mj-section background-color="#EFEFEF">
+      <mj-column width="100%">
+        <mj-text color="#F807C8" align="center" padding="30px 20px" font-size="12px">&copy; 2023 WearWell Apparels, All Rights Reserved.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

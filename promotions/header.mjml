@@ -1,0 +1,10 @@
+<mj-section>
+    <mj-column width="600px">
+        <mj-image
+            mj-class="logo-padding"
+            src="../assets/logo/wearwell-logo.png"
+            alt="this is wearwell brand logo"
+            width="125px"
+            />
+    </mj-column>
+</mj-section>

@@ -1,0 +1,11 @@
+<mj-hero 
+mode="fixed-height"
+height="900px"
+background-height="1470px"
+background-width="600px"
+background-url="../assets/image/hero-background.jpg">
+    <mj-text>
+        <p>We Are Back</p>
+        <h1>Keep looking  simple and sharp</h1>
+    </mj-text>
+</mj-hero>
